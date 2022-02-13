@@ -1,0 +1,149 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+    width: 100%;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-box{
+    margin-left:3rem;
+}
+.logo{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #DA0037;
+    display: inline-block;
+}
+.nav-item{
+    color: #fff;
+}
+
+.nav-item,
+:visited,
+:link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    background-color:#DA0037;
+    border-radius: 10px;
+    padding: 1rem 2rem;  
+    transition: all 0.2s;
+    box-shadow: 0 10rem 20rem rgba(#000 ,.2);
+}
+
+.nav-item:hover{
+    background-color: transparent;
+    border: 1px solid #DA0037;
+    color: #DA0037;
+}
+
+.nav-item--active{
+    background-color: transparent;
+    border: 1px solid #DA0037;
+    color: #DA0037;
+}
+
+.nav-item:active{
+    transform:  scale(0.9);
+}
+
+.sale_computer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 2rem 0 ;
+}
+.card-box{
+    padding: 6rem 12rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card{
+    position: relative;
+    height: 35rem;
+    width: 37rem;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 20rem 40rem rgba(#000 ,.2);
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.img-box{
+    height: 78%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img{
+    max-width: 100%;
+    height: 20rem;
+    margin-top: 5rem;
+}
+
+.price-box{
+    overflow: hidden;
+    height: 22%;
+    background-color: #DA0037;
+}
+
+.price{
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer{
+    background-color:#DA0037;
+    text-align: center;
+}
+.footer-heading{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.amazon-link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #DA0037;
+    background-color: transparent;
+    box-shadow: 0 1rem 2rem rgba(#000 ,.2);
+}
+
+.amazon-box{    
+display: flex;
+justify-content: center;
+align-items: center;
+transform: scale(1);
+transition: all .2S;
+}
+
+.amazon-link:hover{
+    margin-right: 4rem;
+}
+
+.amazon-box:active{
+    transform: scale(0.9);
+}
+
+span{
+    font-size: 2rem;
+    color: #DA0037;
+    margin-left: -4rem;
+}
