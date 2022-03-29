@@ -62,6 +62,7 @@ body{
     text-align: center;
     padding: 2rem 0 ;
 }
+
 .card-box{
     padding: 6rem 12rem;
     display: flex;
@@ -146,4 +147,30 @@ span{
     font-size: 2rem;
     color: #DA0037;
     margin-left: -4rem;
+}
+
+@media(max-width:600px){
+    .heading{
+        padding: 1rem 2rem;
+        justify-content: flex-start;
+    }
+
+    .logo-box{
+        margin-left:0;
+        margin-right: 2rem;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    .sale_computer{
+        padding: 0;
+    }
+    .card-box{
+        padding:4rem 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .card:not(:last-child){
+        margin-bottom: 4rem;
+    }
 }
